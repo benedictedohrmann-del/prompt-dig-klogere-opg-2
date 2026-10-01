@@ -50,11 +50,34 @@
 
 // ✏️ Skriv dit array her ↓
 
+const animalInfo = [
+  {
+  className: "animal1", 
+  name: "Simba",
+  speicies: "Løve",
+  age: 5,
+  food: "Kød"
+  },
 
+  {
+  className: "animal2", 
+  name: "Dumbo",
+  speicies: "Elefant",
+  age: 8,
+  food: "Blade og frugt",
+  },
+
+   {
+  className: "animal3", 
+  name: "Gerald",
+  speicies: "Giraf",
+  age: 6,
+  food: "Blade fra høje træer",
+  }
+]
 
 // ✅ Test: Kig i Console – er der 3 dyr?
 console.log(animalInfo);
-
 
 // ------------------------------------------------------------------
 // STEP 2: Hent infoboksen
