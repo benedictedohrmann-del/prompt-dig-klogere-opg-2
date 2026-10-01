@@ -90,6 +90,7 @@ console.log(animalInfo);
 
 // ✏️ Skriv din kode her ↓
 
+const infoboxElement = document.getElementById ("infobox");
 
 
 // ------------------------------------------------------------------
@@ -109,11 +110,12 @@ console.log(animalInfo);
 //       (Når du er færdig, må du gerne flytte { op i slutningen
 //       af linjen med funktionshovedet.)
 
+function showInfoBox (text)
 {
   infoboxElement.innerHTML = text;
 
   // ✏️ B. Skriv din kode her ↓
-
+  infoboxElement.classList.add("show")  
 
 }
 
@@ -140,9 +142,10 @@ animalInfo.forEach(function (animal) {
     //    Afslut hver linje med <br> (undtagen den sidste).
     const animalDetails = `
       <strong>${animal.name}</strong><br>
-      
-
-      
+      Art: ${animal.speicies} <br>
+      Alder: ${animal.age} <br>
+      Føde: ${animal.food} <br>
+  
     `;
 
     // ✏️ Skriv dit funktionskald til funktionen showInfoBox
