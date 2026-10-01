@@ -151,6 +151,7 @@ animalInfo.forEach(function (animal) {
     // ✏️ Skriv dit funktionskald til funktionen showInfoBox
     //    med animalDetails her ↓
 
+    showInfoBox(animalDetails);
 
   });
 });
